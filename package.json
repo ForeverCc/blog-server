@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "koa2",
+    "mysql",
+    "blog"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0"
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1"
   }
 }
